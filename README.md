@@ -22,7 +22,7 @@ El proyecto prioriza una arquitectura mínima: un componente de cada tipo, confi
 - Aplicar controles deterministas de seguridad con un **Hook**.
 - Versionar y compartir la configuración del equipo con **Git y GitHub**.
 
-## 3. Tecnologías
+## 3. Tecnologías utilizadas
 
 | Tecnología | Rol en el proyecto |
 |---|---|
@@ -32,7 +32,8 @@ El proyecto prioriza una arquitectura mínima: un componente de cada tipo, confi
 | **Subagents** | Analista SQL especializado con contexto aislado. |
 | **MCP Servers** | Conexión a la base de datos de prueba (SQLite). |
 | **Hooks** | Validación previa que bloquea operaciones SQL destructivas. |
-| **Git y GitHub** | Control de versiones y colaboración. |
+| **Git** | Control de versiones local del proyecto. |
+| **GitHub** | Repositorio remoto para compartir la configuración y colaborar. |
 
 ## 4. Estructura del proyecto
 
